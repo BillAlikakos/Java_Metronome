@@ -5,4 +5,4 @@ It utilizes the *javax.sound.midi* library for midi file playback and looping an
 **Features**
 - [x] On the fly BPM increment/decrement
 - [x] Currently supports common time signatures (4/4, 3/4, 6/8, 12/8)
-- [ ] Beat visualization 
+- [x] Beat visualization 
