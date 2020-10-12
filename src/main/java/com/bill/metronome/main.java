@@ -5,7 +5,7 @@
  */
 package com.bill.metronome;
 
-import ui.MainWindow;
+import com.bill.metronome.ui.MainWindow;
 /**
  *
  * @author Bill

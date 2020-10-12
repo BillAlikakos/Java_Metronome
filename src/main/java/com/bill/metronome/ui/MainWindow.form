@@ -3,9 +3,6 @@
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[256, 256]"/>
-    </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[300, 300]"/>
     </Property>
@@ -30,28 +27,28 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="116" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="filler1" min="-2" max="-2" attributes="0"/>
+                  <Component id="header" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
               <Component id="jPanel3" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="main_body" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
                       <Component id="startButton" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="97" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="filler1" min="-2" max="-2" attributes="0"/>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -59,28 +56,32 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Component id="header" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                      <Component id="filler1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="main_body" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="startButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="42" max="32767" attributes="0"/>
-              <Component id="filler1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel2">
+    <Container class="javax.swing.JPanel" name="header">
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Header"/>
+      </AccessibilityProperties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -125,24 +126,21 @@
         </DimensionLayout>
       </Layout>
     </Container>
-    <Container class="javax.swing.JPanel" name="jPanel4">
+    <Container class="javax.swing.JPanel" name="main_body">
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <EmptySpace pref="45" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="timeSignature" max="32767" attributes="0"/>
                       <Component id="bpmModifier" pref="86" max="32767" attributes="0"/>
@@ -160,11 +158,11 @@
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="timeSignature" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="timeSignature" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="36" max="32767" attributes="0"/>
+                  <EmptySpace pref="44" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -199,7 +197,6 @@
           </Properties>
           <Events>
             <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="timeSignatureItemStateChanged"/>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="timeSignatureMouseClicked"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
